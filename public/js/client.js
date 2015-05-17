@@ -330,7 +330,7 @@ var Client = (function(window) {
     console.log(destinationSquare);
     var file = dest.attr('id');
     // file = file[1];
-    var href = 'http://localhost:3000/img/artboard/'+file+'.jpg';
+    var href = 'http://totallyrooked.com/img/artboard/'+file+'.jpg';
     $('.square').css('background-image', 'url("'+href+'"'); 
     // $.ajax({
     //    url:href,
